@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .Momplus {
+    @apply px-6 py-2 my-2 mx-2 border border-[#F7AB0A] rounded-full uppercase tracking-widest text-gray-300 text-xs font-bold transition-all  hover:text-gray-600 hover:border-[#F7AB0A]/50 shadow shadow-yellow-500/40 hover:shadow-yellow-500/90;
+  }
+}
+body {
+  -webkit-tap-highlight-color: transparent;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.contactInput {
+  @apply outline-none bg-gray-700 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-400 font-bold placeholder-gray-400 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/60 hover:border-[#F7AB0A]/40;
+}
+
+.contactInput2 {
+  @apply w-32 md:w-full outline-none bg-gray-700 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-400 font-bold placeholder-gray-400 transition-all focus:border-[#F7AB0A]/40 focus:text-[#F7AB0A]/60 hover:border-[#F7AB0A]/40;
+}
