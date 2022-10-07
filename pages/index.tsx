@@ -13,7 +13,6 @@ import { fetchFormations } from "../utils/fetchFormations"
 import { fetchPersonal } from "../utils/fetchPersonal"
 import { fetchProjects } from "../utils/fetchProjects"
 import { fetchSocial } from "../utils/fetchSocial"
-import { NEXT_URL } from "../NEXT_URL"
 
 type Props = {
   personal: Personal[]
@@ -22,8 +21,6 @@ type Props = {
   projects: Projects[]
   social: Social[]
 }
-
-console.log(NEXT_URL)
 
 const Home = ({
   personal,

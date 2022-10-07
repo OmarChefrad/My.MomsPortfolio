@@ -24,7 +24,7 @@ export default function ExperienceCard({ experience }: Props) {
       />
       <div className="px-0 md:px-10">
         <h6 className="text-2xl tracking-[7px] font-bold p-5">
-          {experience.institution} Years
+          {experience.institution} Ans
         </h6>
         <ul className="list-disc space-y-5 ml-5 text-lg ">
           <li>{experience.jobTitle}</li>
